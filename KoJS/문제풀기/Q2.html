@@ -1,0 +1,33 @@
+<script type="text/javascript">
+// 프로퍼티 합계구하기
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+};
+
+let sum = 0;
+for (let key in salaries) {
+  sum += salaries[key];
+}
+
+alert(sum); // 390
+</script>
+<script type="text/javascript">
+    // 프로퍼티 값 두 배로 부풀리기
+    
+    let menu = {
+    width: 200,
+    height: 300,
+    title: "My menu"
+    };
+
+    multiplyNumeric(menu);
+
+    // 함수 호출 후
+    menu = {
+    width: 400,
+    height: 600,
+    title: "My menu"
+    };
+    </script>

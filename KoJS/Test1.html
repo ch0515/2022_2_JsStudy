@@ -1,4 +1,4 @@
-<script>
+<script type="text/javascript">
   let user = {     // 객체
     name: "John",  // 키: "name",  값: "John"
     age: 30        // 키: "age", 값: 30
@@ -7,4 +7,18 @@
   alert( user.name ); // John
   alert( user.age ); // 30
   delete user.age;
+  console.log(user.name);
+  console.log(user.age);
+</script>
+<script type="text/javascript">
+    let user1 = {};
+
+  // set
+  user["likes birds"] = true; //대괄호 표기법
+
+  // get
+  alert(user["likes birds"]); // true
+
+  // delete
+  delete user["likes birds"];
 </script>
